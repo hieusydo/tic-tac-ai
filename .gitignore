@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# py modules
+.pyc
+
+# digital ocean
+wsgi.py
+env/
