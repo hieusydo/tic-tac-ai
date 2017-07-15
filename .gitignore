@@ -22,8 +22,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # py modules
-.pyc
+*.pyc
 
 # digital ocean
 wsgi.py
-env/
+/env
