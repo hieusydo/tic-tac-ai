@@ -23,7 +23,7 @@ class Board extends React.Component {
   // Understanding CORS: https://www.html5rocks.com/en/tutorials/cors/
   // Using CORS in ReactJS: https://flask-cors.readthedocs.io/en/latest/
   calculateComputerMove(squares) {
-    return fetch('http://127.0.0.1:5000/api/move' , {
+    return fetch('http://dev.hieusydo.com/api/move' , {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
