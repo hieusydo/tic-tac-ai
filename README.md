@@ -1,2 +1,2 @@
 # Tic Tac AI
-Play Tic-Tac-Toe against a simple AI. The frontend is bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Every time a player makes a move, the game state is sent to a Flask server where the next best move is calculated and then returned. The optimal move is found by the minimax algorithm. 
+Play Tic-Tac-Toe against a simple AI. The frontend is bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Every time a player makes a move, the game state is sent to a Flask server where the next best move is calculated and then returned. The optimal move is found by the minimax algorithm (with alpha-beta pruning).
